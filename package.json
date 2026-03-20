@@ -1,0 +1,26 @@
+{
+  "name": "invoice-generator",
+  "version": "1.0.0",
+  "description": "AI-powered invoice generator that estimates market-average task completion times",
+  "type": "module",
+  "bin": {
+    "invoice-generator": "./bin/generate.sh"
+  },
+  "scripts": {
+    "generate": "tsx src/cli.ts",
+    "retainer": "tsx src/retainer-cli.ts",
+    "build": "tsc"
+  },
+  "keywords": ["invoice", "consulting", "ai", "time-tracking", "clockify"],
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@10.30.0",
+  "dependencies": {
+    "@types/node": "^25.5.0",
+    "@types/pdfkit": "^0.17.5",
+    "csv-parse": "^6.2.1",
+    "pdfkit": "^0.18.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

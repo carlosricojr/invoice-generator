@@ -1,0 +1,42 @@
+{
+  "from": {
+    "name": "Your Company",
+    "legalName": "Your Company LLC",
+    "address": [
+      "123 Main Street",
+      "City, State 12345"
+    ],
+    "email": "billing@yourcompany.com",
+    "phone": "(555) 123-4567",
+    "website": "yourcompany.com"
+  },
+  "defaultClient": {
+    "name": "Client Corp",
+    "contactName": "John Doe",
+    "address": [
+      "456 Client Ave",
+      "Suite 100",
+      "City, State 67890"
+    ],
+    "email": "john@clientcorp.com"
+  },
+  "hourlyRate": 200,
+  "billingIncrement": 0.1,
+  "currency": "USD",
+  "paymentTermsDays": 30,
+  "paymentInstructions": [
+    "Payment is due within 30 days of invoice date.",
+    "Please remit payment via wire transfer or ACH.",
+    "For questions regarding this invoice, contact billing@yourcompany.com"
+  ],
+  "remittance": {
+    "accountName": "Your Company LLC",
+    "address": "123 Main Street, City, State 12345",
+    "bank": "Bank Name",
+    "accountNumber": "000000000",
+    "routingACH": "000000000",
+    "routingWire": "000000000"
+  },
+  "invoiceNumberPrefix": "INV",
+  "lateInterestRate": "1.5% per month"
+}

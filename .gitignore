@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Generated invoices
+output/
+
+# Sensitive config (contains bank details, client info)
+config.json
+
+# Retainer state (tracks client-specific balance)
+retainer-*.json
+
+# Invoice source data (contains client billing details)
+invoice-backups/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
