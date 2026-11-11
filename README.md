@@ -117,6 +117,6 @@ Bank details displayed at the bottom of the invoice for ACH and wire payments.
 ## Requirements
 
 - A [supported Node.js LTS release](https://nodejs.org/en/about/previous-releases)
-  (validated with Node 26.12.1 on 2026-11-11)
+  (validated with Node 26.13.0 LTS on 2026-11-11)
 - [pnpm](https://pnpm.io/)
 - [Claude Code](https://claude.ai/claude-code) CLI (for AI estimation)

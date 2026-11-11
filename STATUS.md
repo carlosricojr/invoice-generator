@@ -22,7 +22,10 @@ customer files and local installations untouched.
 
 Verified on 2026-11-11:
 
-- Frozen pnpm install and TypeScript build pass on Node 26.12.1 / pnpm 10.30.0.
+- Frozen pnpm install and TypeScript build pass on Node 26.13.0 LTS / pnpm
+  10.30.0. The official isolated runtime was checksum-verified; the machine's
+  default runtime was not changed. The earlier Node 26.12.1 check used a
+  pre-LTS release and does not establish LTS compatibility.
 - The staged, offline CLI produced a one-page synthetic PDF with 0.2 billed
   hours and a $20.00 total. Quoted CSV fields and nonbillable exclusion passed;
   the rendered page was inspected. No external estimator or retainer write ran.
